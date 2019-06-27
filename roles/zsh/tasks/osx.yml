@@ -1,0 +1,14 @@
+- name: Install ZSH
+  homebrew: name=zsh state=latest
+
+- stat: path=$HOME/.oh-my-zsh
+  register: cur_dir
+
+- name: Install Oh My ZSH
+  shell: >
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  when: cur_dir.stat.exists == False
+
+- name: Set up zsh to default shell
+  shell: >
+    chsh -s /bin/zsh

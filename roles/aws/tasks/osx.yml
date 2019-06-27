@@ -1,0 +1,2 @@
+- name: Install AWS cli
+  homebrew: name=awscli state=latest

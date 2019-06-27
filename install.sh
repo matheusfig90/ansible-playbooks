@@ -15,4 +15,7 @@ rm -rf ansible-playbooks.zip
 # Set a new current directory
 cd ansible-playbooks-master/
 
+echo "We need to give special permissions to scripts"
+sudo chmod +x ./install.sh ./scripts/*
+
 ./scripts/setup.sh

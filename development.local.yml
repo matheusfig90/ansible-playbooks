@@ -10,6 +10,8 @@
     - docker
     - nvm
     - yarn
+    - gpg
     - rvm
     - vs-code
     - sequel-pro
+    - tunnelblick

@@ -1,0 +1,6 @@
+- name: Install Vim
+  homebrew: name=vim state=latest
+
+- name: Install Janus
+  shell: >
+    curl -L https://bit.ly/janus-bootstrap | bash
