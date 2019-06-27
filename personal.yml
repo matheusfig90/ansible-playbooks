@@ -1,0 +1,9 @@
+- name: Set up personal environment
+  hosts: local
+  roles:
+    - 1password
+    - spectacle
+    - spotify
+    - google-chrome
+    - caffeine
+    - terminal
