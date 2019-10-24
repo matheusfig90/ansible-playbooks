@@ -1,0 +1,2 @@
+- name: Install Mackup
+  homebrew: name=mackup state=latest
