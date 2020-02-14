@@ -17,3 +17,7 @@
 - name: Install Jest Runner
   shell: >
     code --install-extension firsttris.vscode-jest-runner
+
+- name: Install Quit control
+  shell: >
+    code --install-extension artdiniz.quitcontrol-vscode
