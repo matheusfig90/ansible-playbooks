@@ -1,0 +1,11 @@
+- name: Set up personal environment
+  hosts: local
+  roles:
+    # - mas
+    - 1password
+    - evernote
+    - firefox
+    - google-chrome
+    - todo
+    - spectacle
+    - spotify

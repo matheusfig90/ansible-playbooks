@@ -1,0 +1,21 @@
+- name: Set up development environment
+  hosts: local
+  roles:
+    - aws
+    - circleci
+    - dbeaver
+    - docker
+    - git
+    - intellij
+    - nvm
+    - phpstorm
+    - postman
+    - pycharm
+    - python
+    - terraform
+    - terminal
+    - the-silver-searcher
+    - vim
+    - vscode
+    - zsh
+    
