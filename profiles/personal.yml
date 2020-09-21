@@ -1,7 +1,7 @@
 - name: Set up personal environment
   hosts: local
   roles:
-    # - mas
+    - mas
     - 1password
     - evernote
     - firefox
