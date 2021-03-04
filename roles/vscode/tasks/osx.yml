@@ -3,6 +3,14 @@
     name: visual-studio-code
 
 # Extensions
+- name: Install Bookmarks
+  shell: >
+    code --install-extension alefragnani.Bookmarks
+
+- name: Install Bracket Pair Colorizer 2
+  shell: >
+    code --install-extension CoenraadS.bracket-pair-colorizer-2
+
 - name: Install Clock
   shell: >
     code --install-extension angelo-breuer.clock
@@ -26,6 +34,10 @@
 - name: Install Live Share
   shell: >
     code --install-extension MS-vsliveshare.vsliveshare-pack
+
+- name: Install Material Icon Theme
+  shell: >
+    code --install-extension PKief.material-icon-theme
 
 - name: Install Polacode for VS Code
   shell: >
