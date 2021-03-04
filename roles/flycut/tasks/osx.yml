@@ -1,3 +1,0 @@
-- name: Install Flycut
-  homebrew_cask:
-    name: flycut
