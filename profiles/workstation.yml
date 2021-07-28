@@ -1,10 +1,8 @@
 - name: Set up personal environment
   hosts: local
   roles:
-    - agenda
     - caffeine
     - firefox
-    - focus-booster
     - google-chrome
     - openvpn
     - slack
