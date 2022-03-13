@@ -3,7 +3,10 @@
   roles:
     - 1password
     - firefox
-    - google-chrome
+    - notion
+    - pocketcasts
+    - protonvpn
     - spectacle
     - spotify
+    - todoist
     - unclutter

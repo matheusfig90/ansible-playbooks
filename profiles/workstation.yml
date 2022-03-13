@@ -3,6 +3,8 @@
   roles:
     - caffeine
     - firefox
+    - google-chrome
+    - intellij
     - openvpn
     - slack
     - zoom
