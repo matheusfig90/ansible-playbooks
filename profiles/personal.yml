@@ -2,6 +2,7 @@
   hosts: local
   roles:
     - 1password
+    - bartender
     - firefox
     - notion
     - pocketcasts

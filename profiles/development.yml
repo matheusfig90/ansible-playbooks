@@ -9,7 +9,10 @@
     - circleci
     - dbeaver
     - docker
+    - firefox
     - git
+    - google-chrome
+    - iglance
     - java
     - nvm
     - postman
