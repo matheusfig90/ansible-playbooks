@@ -1,3 +1,0 @@
-- name: Install Agenda
-  homebrew_cask:
-    name: agenda

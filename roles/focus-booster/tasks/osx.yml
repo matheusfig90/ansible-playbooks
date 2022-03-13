@@ -1,3 +1,0 @@
-- name: Install focus booster
-  homebrew_cask:
-    name: focus-booster

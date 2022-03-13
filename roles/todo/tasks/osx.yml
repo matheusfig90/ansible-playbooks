@@ -1,3 +1,0 @@
-- name: Install Microsoft To Do
-  shell: >
-    mas lucky "Microsoft To Do"
