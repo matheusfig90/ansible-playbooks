@@ -1,2 +1,0 @@
-- name: Install mas (Mac App Store CLI)
-  homebrew: name=mas state=latest

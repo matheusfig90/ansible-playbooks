@@ -1,0 +1,3 @@
+- name: Install Todoist
+  homebrew_cask:
+    name: todoist

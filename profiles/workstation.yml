@@ -1,9 +1,10 @@
-- name: Set up personal environment
+- name: Set up workstation environment
   hosts: local
   roles:
     - caffeine
     - firefox
     - google-chrome
+    - intellij
     - openvpn
     - slack
     - zoom

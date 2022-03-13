@@ -1,0 +1,3 @@
+- name: Install Pocket Casts
+  homebrew_cask:
+    name: pocket-casts

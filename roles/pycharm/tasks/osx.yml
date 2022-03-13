@@ -1,3 +1,0 @@
-- name: Install PyCharm CE
-  homebrew_cask:
-    name: pycharm-ce
