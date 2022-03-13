@@ -19,6 +19,10 @@
   shell: >
     code --install-extension EditorConfig.EditorConfig
 
+- name: Install ESLint for VS Code
+  shell: >
+    code --install-extension dbaeumer.vscode-eslint
+
 - name: Install GitLens for VS Code
   shell: >
     code --install-extension eamodio.gitlens
@@ -62,7 +66,3 @@
 - name: Install TypeScript Import Sorter
   shell: >
     code --install-extension mike-co.import-sorter
-
-- name: Install VSCode Protobuf 3 support
-  shell: >
-    code --install-extension zxh404.vscode-proto3
