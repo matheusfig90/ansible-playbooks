@@ -1,3 +1,0 @@
-- name: Install OpenVPN Connect
-  homebrew_cask:
-    name: openvpn-connect
