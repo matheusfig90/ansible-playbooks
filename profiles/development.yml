@@ -1,17 +1,18 @@
 - name: Set up development environment
   hosts: local
   roles:
+    - zsh
+    - vim
+    - terminal
+    - the-silver-searcher
     - aws
     - circleci
     - dbeaver
     - docker
     - git
+    - java
     - nvm
     - postman
     - python
     - terraform
-    - terminal
-    - the-silver-searcher
-    - vim
     - vscode
-    - zsh
