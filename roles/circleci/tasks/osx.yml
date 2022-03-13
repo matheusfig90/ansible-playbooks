@@ -1,2 +1,2 @@
-- name: Install CircleCI CircleCI
+- name: Install CircleCI
   homebrew: name=circleci state=latest
