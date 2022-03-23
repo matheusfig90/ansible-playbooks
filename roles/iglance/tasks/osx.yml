@@ -1,3 +1,0 @@
-- name: Install iGlance
-  homebrew_cask:
-    name: iglance
