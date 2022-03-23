@@ -3,6 +3,7 @@
   roles:
     - 1password
     - bartender
+    - istat
     - firefox
     - notion
     - pocketcasts
