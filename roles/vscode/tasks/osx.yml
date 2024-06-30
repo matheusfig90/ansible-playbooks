@@ -7,14 +7,6 @@
   shell: >
     code --install-extension alefragnani.Bookmarks
 
-- name: Install Bracket Pair Colorizer 2
-  shell: >
-    code --install-extension CoenraadS.bracket-pair-colorizer-2
-
-- name: Install Clock
-  shell: >
-    code --install-extension angelo-breuer.clock
-
 - name: Install EditorConfig for VS Code
   shell: >
     code --install-extension EditorConfig.EditorConfig
@@ -35,10 +27,6 @@
   shell: >
     code --install-extension euskadi31.json-pretty-printer
 
-- name: Install Live Share
-  shell: >
-    code --install-extension MS-vsliveshare.vsliveshare-pack
-
 - name: Install Material Icon Theme
   shell: >
     code --install-extension PKief.material-icon-theme
@@ -50,10 +38,6 @@
 - name: Install Quit control
   shell: >
     code --install-extension artdiniz.quitcontrol-vscode
-
-- name: Install Terraform
-  shell: >
-    code --install-extension HashiCorp.terraform
 
 - name: Install TODO Tree
   shell: >
