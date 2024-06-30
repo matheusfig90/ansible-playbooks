@@ -50,3 +50,7 @@
 - name: Install TypeScript Import Sorter
   shell: >
     code --install-extension mike-co.import-sorter
+
+- name: Install Project Manager
+  shell: >
+    code --install-extension alefragnani.project-manager
