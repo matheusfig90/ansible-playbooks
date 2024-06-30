@@ -2,7 +2,7 @@
   homebrew: name=jenv state=latest
 
 - name: "Set up Java Version Management (jEnv)"
-  shell: >
+  shell: |
     echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
     echo 'eval "$(jenv init -)"' >> ~/.zshrc
   args:
