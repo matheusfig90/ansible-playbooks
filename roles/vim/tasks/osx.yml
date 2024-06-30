@@ -1,6 +1,7 @@
-- name: Install Vim
-  homebrew: name=vim state=latest
+- name: installing NeoVim
+  homebrew: name=neovim state=latest
 
-- name: Install Janus
-  shell: >
-    curl -L https://bit.ly/janus-bootstrap | bash
+- name: setting up AstroNvim
+  shell: |
+    git clone --depth 1 https://github.com/AstroNvim/template ~/.config/nvim
+    rm -rf ~/.config/nvim/.git
