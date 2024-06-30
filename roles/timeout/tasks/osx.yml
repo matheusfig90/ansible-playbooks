@@ -1,3 +1,0 @@
-- name: Install Timeout (Break reminders)
-  homebrew_cask:
-    name: time-out

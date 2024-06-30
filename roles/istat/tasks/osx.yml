@@ -1,3 +1,0 @@
-- name: Install iStat
-  homebrew_cask:
-    name: istat-menus

@@ -1,11 +1,7 @@
 - name: Set up workstation environment
   hosts: local
   roles:
-    - caffeine
     - firefox
     - google-chrome
     - intellij
     - slack
-    - timemator
-    - timeout
-    - zoom

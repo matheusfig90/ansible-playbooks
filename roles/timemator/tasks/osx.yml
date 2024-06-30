@@ -1,3 +1,0 @@
-- name: Install Timemator (Time-tracking)
-  homebrew_cask:
-    name: timemator

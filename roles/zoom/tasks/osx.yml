@@ -1,3 +1,0 @@
-- name: Install Zoom
-  homebrew_cask:
-    name: zoomus
